@@ -1,7 +1,7 @@
 npm install dubapi
 var DubAPI = require('dubapi');
 
-new DubAPI({username: '', password: ''}, function(err, bot) {
+new DubAPI({username: 'alexsir', password: 'qwert789'}, function(err, bot) {
     if (err) return console.error(err);
 
     console.log('Running DubAPI v' + bot.version);
